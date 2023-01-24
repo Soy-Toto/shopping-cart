@@ -3,8 +3,7 @@ let shop = document.getElementById("shop");
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let generateShop = () => {
-  return (shop.innerHTML = shopItemsData
-    .map((x) => {
+  return (shop.innerHTML = shopItemsData.map((x) => {
       let { id, name, price, desc, img } = x;
       let search = basket.find((x) => x.id === id) || [];
       return `
