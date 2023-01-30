@@ -167,7 +167,7 @@ a {
 }
 
 .title-price-x {
-  width: 195px;
+  width: 196px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -177,12 +177,12 @@ a {
 .title-price {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
 }
 
 .cart-item-price {
   background-color: #212529;
-  color: #fff;
+  color: white;
   border-radius: 4px;
   padding: 3px 6px;
 }
